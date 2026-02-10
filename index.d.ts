@@ -3,9 +3,9 @@
 // Definitions by: MNB <https://github.com/MNBuyskih>
 // Definitions: https://github.com/DefinitelyTyped/DefinitelyTyped
 
-export const ReactNativeBlobUtil: ReactNativeBlobUtilStatic;
-export type ReactNativeBlobUtil = ReactNativeBlobUtilStatic;
+declare const ReactNativeBlobUtil: ReactNativeBlobUtilStatic;
 export default ReactNativeBlobUtil;
+export type ReactNativeBlobUtil = ReactNativeBlobUtilStatic;
 import { filedescriptor } from "./types";
 import CanceledFetchError from "./class/ReactNativeBlobUtilCanceledFetchError";
 
@@ -800,7 +800,7 @@ export interface AddAndroidDownloads {
     /**
      * If true android download manager will try to save the file to the apps Download direcotry
      */
-    storeLocal?: boolean
+    storeLocal?: boolean;
 }
 
 export interface ReactNativeBlobUtilResponseInfo {
